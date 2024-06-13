@@ -8,36 +8,41 @@ export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
   );
-  const FailedLoading = () => null;
+  const FailedLoading = () => <div>Error loading projects.</div>;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch('/profile.json', {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      })
         .then((result) => {
           if (result.ok) {
             return result.json();
           }
-          throw result;
+          throw new Error('Failed to fetch profile.json');
         })
         .then((response) => {
+          console.log('Fetched data:', response);
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
         .catch(function (error) {
-          console.log(error);
+          console.error('Fetch error:', error);
           setrepoFunction("Error");
-          console.log(
-            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
-          );
         });
     };
     getRepoData();
   }, []);
 
   function setrepoFunction(array) {
+    console.log('Setting repo state with:', array);
     setrepo(array);
   }
+
   if (!(typeof repo === "string" || repo instanceof String)) {
     return (
       <Suspense fallback={renderLoader()}>

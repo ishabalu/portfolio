@@ -10,6 +10,12 @@
   src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
   font-display: swap;
 }
+@font-face {
+  font-family: 'The Bride in Hacienda';
+  src: url('./assets/fonts/The\ Bride\ in\ Hacienda.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

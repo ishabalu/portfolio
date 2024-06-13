@@ -19,7 +19,7 @@ export default function WorkExperience() {
                                 <ExperienceCard
                                     cardInfo={{
                                         company: card.company,
-                                        desc: card.desc,
+                                        descComponent: card.descComponent,
                                         date: card.date,
                                         companylogo: card.companylogo,
                                         role: card.role,

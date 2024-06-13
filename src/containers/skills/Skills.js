@@ -12,7 +12,7 @@ export default function Skills() {
           <div className="skills-image-div">
             <img
               alt="Bharat Working"
-              src={require("../../assets/images/developerActivity.svg")}
+              src={require("../../assets/images/laptop-lady.png")}
             ></img>
           </div>
         </Fade>

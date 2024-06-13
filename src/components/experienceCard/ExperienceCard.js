@@ -32,7 +32,7 @@ export default function ExperienceCard({ cardInfo }) {
       <div className="experience-text-details">
         <h5 className="experience-text-role">{cardInfo.role}</h5>
         <h5 className="experience-text-date">{cardInfo.date}</h5>
-        <p className="subTitle experience-text-desc">{cardInfo.desc}</p>
+        {cardInfo.descComponent ? <cardInfo.descComponent /> : null}
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} />
         </ul>

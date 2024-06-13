@@ -5,10 +5,10 @@ import emoji from "react-easy-emoji";
 // Your Summary And Greeting Section
 
 const greeting = {
-  username: "Bharat Kammakatla",
-  title: "Hi all, I'm Bharat",
+  username: "Isha Saikumar",
+  title: " Hello there! I'm Isha, a passionate graduate student from the vibrant halls of Indiana University Bloomington.",
   subTitle: emoji(
-    "Applications Developer 👨‍💻 | Automation Engineer 🤖 | Tech Writer ✍️ "
+    "Full stack Developer 👩🏽‍💻"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1LVBWauoSNFUP91jLR4-zKExI1CGKkZa_/edit?usp=share_link&ouid=100223492053731464282&rtpof=true&sd=true",
@@ -17,30 +17,19 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/bharatkammakatla",
-  linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com",
-  facebook: "https://www.facebook.com/bharat.kammakatla",
-  twitter: "https://twitter.com/Bharat__K",
+  github: "https://github.com/ishabalu",
+  linkedin: "https://www.linkedin.com/in/isha-saikumar/",
+
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "My Skills",
   subTitle:
-    "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
+    "",
   skills: [
-    emoji(
-      "⚡ Designing and developing Test Automation frameworks using Python and Java"
-    ),
-    emoji("⚡ End to End automation executions"),
-    emoji(
-      "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"
-    ),
-    emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
-    ),
+
   ],
 
   softwareSkills: [
@@ -66,13 +55,6 @@ const skillsSection = {
       },
     },
     {
-      skillName: "maven",
-      classname: "vscode-icons:file-type-maven",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
       skillName: "git",
       classname: "logos:git-icon",
       style: {
@@ -94,29 +76,127 @@ const skillsSection = {
       },
     },
     {
-      skillName: "tensorflow",
-      classname: "logos-tensorflow",
-      style: {
-        backgroundColor: "transparent",
-      },
+      "skillName": "selenium",
+      "classname": "simple-icons:selenium",
+      "style": {
+        "backgroundColor": "transparent"
+      }
     },
     {
-      skillName: "keras",
-      classname: "simple-icons:keras",
-      style: {
-        backgroundColor: "white",
-        color: "#D00000",
-      },
+      "skillName": "go",
+      "classname": "logos:go",
+      "style": {
+        "backgroundColor": "transparent"
+      }
     },
     {
-      skillName: "flask",
-      classname: "simple-icons:flask",
-      style: {
-        backgroundColor: "transparent",
-      },
+      "skillName": "postman",
+      "classname": "logos:postman",
+      "style": {
+        "backgroundColor": "transparent"
+      }
+    },
+    {
+      "skillName": "kibana",
+      "classname": "simple-icons:kibana",
+      "style": {
+        "backgroundColor": "transparent"
+      }
     },
   ],
 };
+
+
+const skillsCategories = {
+  languages: [
+    { name: "Python", iconClass: "logos:python" },
+    { name: "Java", iconClass: "logos:java" },
+    { name: "Go", iconClass: "logos:go" },
+    { name: "HTML", iconClass: "vscode-icons:file-type-html" },
+    { name: "CSS", iconClass: "vscode-icons:file-type-css" },
+    { name: "JavaScript", iconClass: "logos:javascript" },
+    { name: "SQL", iconClass: "vscode-icons:file-type-sql" }
+
+
+  ],
+  frameworks: [
+    { name: "React", iconClass: "logos:react" },
+    { name: "Selenium", iconClass: "logos:selenium", style: { color: "#43B02A" } },
+    { name: "Node.js", iconClass: "logos:nodejs" },
+    { name: "Mocha", iconClass: "logos:mocha" },
+    { name: "Chai", iconClass: "logos:chai" }
+
+
+
+  ],
+  tools: [
+    { name: "VS Code", iconClass: "vscode-icons:file-type-vscode" },
+    { name: "Git", iconClass: "logos:git-icon" },
+    { name: "Jenkins", iconClass: "vscode-icons:file-type-jenkins" },
+    { name: "Kibana", iconClass: "logos:kibana" },
+    { name: "Docker", iconClass: "logos:docker-icon" },
+    { name: "Postman", iconClass: "logos:postman-icon" }
+
+
+  ],
+  databases: [
+    { "name": "PostgreSQL", "iconClass": "logos:postgresql" },
+    { "name": "MySQL", "iconClass": "logos:mysql", "style": { "color": "#4479A1" } },
+    { "name": "Firestore", "iconClass": "logos:firebase", "style": { "color": "#FFA000" } },
+    { "name": "MongoDB", "iconClass": "logos:mongodb", "style": { "color": "#47A248" } }
+
+
+  ],
+};
+
+
+function Intern() {
+  return (
+    <div>
+      <p>In my role, I engaged in a comprehensive study of the multicloud platform’s capabilities, gaining a deep understanding of its features and potential. Prior to the deployment of automated testing procedures, I meticulously performed manual testing to ensure the platform’s robustness and to preemptively identify any defects.</p>
+
+      <p>Subsequently, I developed and implemented Selenium automation test scripts tailored to the platform’s unique environment. This strategic initiative was crucial in detecting and resolving issues before the platform’s release into production, thereby safeguarding the quality of the final product.</p>
+
+      <p>To maintain the highest standards of quality assurance, I established a routine process where these scripts were executed daily. The outcomes of these tests were systematically compiled and disseminated through automated emails, providing stakeholders with regular updates on the platform’s performance and stability.</p>
+      <div>
+        <h3>Key Performance Metrics:</h3>
+        <ul>
+          <li><strong>Defect Detection Efficiency:</strong> Achieved a defect detection rate of over 95%, ensuring the platform’s reliability.</li>
+          <li><strong>Test Case Pass Rate:</strong> Maintained a consistent pass rate of 99% for all automated test cases.</li>
+          <li><strong>Automated Test Coverage:</strong> Expanded the test coverage by 40%, encompassing a wider range of scenarios and edge cases.</li>
+          <li><strong>Daily Test Execution:</strong> Successfully executed an average of 50 automated test scripts per day, with detailed reports on test outcomes.</li>
+        </ul>
+      </div>
+    </div>
+
+  );
+}
+
+function Engineer() {
+  return (
+    <div>
+      <p>In my tenure as a Software Engineer, my role encompassed more than script automation; I explored our microservices, notably the Tenant-Mgr, to establish Flex groups. These groups were key in orchestrating public clouds like GCP, AWS, and Azure, managing access, budgeting, and resource management.</p>
+
+      <p>I played a key role in the entire development cycle of the Flex group feature, from its inception to its launch. My work involved refining business logic, creating extensive unit tests, and preparing mock data for thorough REST API testing. I also actively participated in bug bash sessions, pinpointing and addressing critical edge cases to enhance feature reliability before release.
+      </p>
+
+      <p>I specialized in Azure Management Group REST APIs to enhance subscription tracking and policy management. Through meticulous testing with POSTMAN and UI assessments, I ensured optimal functionality. Additionally, I utilized Jenkins for continuous integration, automating our test suite execution and daily reporting, thereby bolstering our product’s reliability and performance.</p>
+      
+      <div>
+        <h3>Key Performance Metrics:</h3>
+        <ul>
+          <li><strong>Business Logic Implementation:</strong> Developed and integrated complex business logic for core services, contributing to the management and operational efficiency of public cloud services.</li>
+          <li><strong>Bug Bash Contributions:</strong> Actively participated in bug bash sessions, uncovering and addressing edge-case scenarios, which played a pivotal role in preempting potential production issues.</li>
+          <li><strong>API Development and Testing:</strong> Authored and tested REST APIs for critical features, ensuring seamless integration and functionality within the microservices architecture.</li>
+          <li><strong>Continuous Integration Process:</strong> Leveraged Jenkins to automate the continuous integration process, resulting in a streamlined workflow that updated and tested Selenium scripts daily, enhancing the development pipeline’s efficiency.</li>
+        </ul>
+
+      </div>
+    </div>
+
+  );
+}
+
 
 // Your top 3 work experiences
 
@@ -124,18 +204,19 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Associate Engineer",
-      company: "Cognizant",
-      companylogo: require("./assets/images/cognizant-logo.png"),
-      date: "Aug 2022 – Present",
-      desc: "Applications development and support of Java applications. Design and develop automation solutions for QA and OPS teams.",
+      role: "Software Engineer",
+      company: "Cisco Systems Pvt Ltd",
+      companylogo: require("./assets/images/cisco_logo_in_a_circle.png"),
+      date: "Aug 2021 – Jul 2023",
+      descComponent: Engineer
     },
     {
-      role: "IT Analyst",
-      company: "Tata Consultancy Services",
-      companylogo: require("./assets/images/tcs-logo.png"),
-      date: "Feb 2016 – Jul 2022",
-      desc: "Design, develop and maintain enterprise level Test Automation frameworks.",
+      role: "Technical Undergraduate Intern",
+      company: "Cisco Systems Pvt Ltd",
+      companylogo: require("./assets/images/cisco_logo_in_a_circle.png"),
+      date: "Feb 2021 – Jun 2021",
+      descComponent: Intern
+      ,
     },
   ],
 };
@@ -144,7 +225,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to false
   display: true, // Set false to hide this section, defaults to true
 };
 
@@ -248,14 +329,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+  number: "+1 (812) 778-5488 ",
+  email_address: "isaikuma@iu.edu",
 };
 
 export {
   greeting,
   socialMediaLinks,
   skillsSection,
+  skillsCategories,
   workExperiences,
   openSource,
   blogSection,

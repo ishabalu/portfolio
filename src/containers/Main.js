@@ -20,7 +20,6 @@ export default class Main extends Component {
         <WorkExperience />
         <Projects />
         <Certifications />
-        <Blogs />
         <Profile />
         <Footer />
         <Top />

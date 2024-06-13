@@ -1,6 +1,6 @@
 {
-  "short_name": "Bharat Kammakatla",
-  "name": "Bharat Kammakatla",
+  "short_name": "Ishabalu",
+  "name": "Isha Saikumar",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#001C55",
+  "theme_color": "#e08b70",
   "background_color": "#ffffff"
 }
