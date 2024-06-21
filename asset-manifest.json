@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a3a919aa.css",
-    "main.js": "/portfolio/static/js/main.aa04bfae.js",
+    "main.js": "/portfolio/static/js/main.6ebed0e1.js",
     "static/css/791.dc012046.chunk.css": "/portfolio/static/css/791.dc012046.chunk.css",
     "static/js/791.07f79bb2.chunk.js": "/portfolio/static/js/791.07f79bb2.chunk.js",
     "static/css/430.43c8b8d6.chunk.css": "/portfolio/static/css/430.43c8b8d6.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/zero-to-mastery.png": "/portfolio/static/media/zero-to-mastery.5a4624b1268feb59a5fc.png",
     "static/media/jsFramework.svg": "/portfolio/static/media/jsFramework.3ab07cc8870a3b0896a5.svg",
     "static/media/seetest-logo.png": "/portfolio/static/media/seetest-logo.443de02aa488a5d335c2.png",
+    "static/media/cisco_logo_in_a_circle.png": "/portfolio/static/media/cisco_logo_in_a_circle.863bf642249375808399.png",
     "static/media/vskills-logo.png": "/portfolio/static/media/vskills-logo.427a80fbdd50fe384cec.png",
     "static/media/skill.svg": "/portfolio/static/media/skill.534a480585017f1685b7.svg",
     "static/media/logo.svg": "/portfolio/static/media/logo.927f1d60d9299096a4a8068289cc4d4b.svg",
@@ -29,7 +30,7 @@
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.64ee645097ba732c156b.svg",
     "index.html": "/portfolio/index.html",
     "main.a3a919aa.css.map": "/portfolio/static/css/main.a3a919aa.css.map",
-    "main.aa04bfae.js.map": "/portfolio/static/js/main.aa04bfae.js.map",
+    "main.6ebed0e1.js.map": "/portfolio/static/js/main.6ebed0e1.js.map",
     "791.dc012046.chunk.css.map": "/portfolio/static/css/791.dc012046.chunk.css.map",
     "791.07f79bb2.chunk.js.map": "/portfolio/static/js/791.07f79bb2.chunk.js.map",
     "430.43c8b8d6.chunk.css.map": "/portfolio/static/css/430.43c8b8d6.chunk.css.map",
@@ -37,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.a3a919aa.css",
-    "static/js/main.aa04bfae.js"
+    "static/js/main.6ebed0e1.js"
   ]
 }
