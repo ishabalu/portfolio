@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a3a919aa.css",
-    "main.js": "/portfolio/static/js/main.2a9a6a9d.js",
+    "main.js": "/portfolio/static/js/main.f4b5b691.js",
     "static/css/791.dc012046.chunk.css": "/portfolio/static/css/791.dc012046.chunk.css",
     "static/js/791.07f79bb2.chunk.js": "/portfolio/static/js/791.07f79bb2.chunk.js",
     "static/css/430.43c8b8d6.chunk.css": "/portfolio/static/css/430.43c8b8d6.chunk.css",
@@ -11,6 +11,7 @@
     "static/media/woman-at-work.png": "/portfolio/static/media/woman-at-work.e6976da8c7f252b8c384.png",
     "static/media/The Bride in Hacienda.ttf": "/portfolio/static/media/The Bride in Hacienda.eefb1084dc7eca3e836f.ttf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/meta_pic.jpg": "/portfolio/static/media/meta_pic.0e171210fe667bc56886.jpg",
     "static/media/github-logo.png": "/portfolio/static/media/github-logo.207c4deee2623ce08ee1.png",
     "static/media/ibm_logo.png": "/portfolio/static/media/ibm_logo.561b381bfdc1fc144f8f.png",
     "static/media/tcs-logo.png": "/portfolio/static/media/tcs-logo.ea10fb131b90de45a767.png",
@@ -31,7 +32,7 @@
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.64ee645097ba732c156b.svg",
     "index.html": "/portfolio/index.html",
     "main.a3a919aa.css.map": "/portfolio/static/css/main.a3a919aa.css.map",
-    "main.2a9a6a9d.js.map": "/portfolio/static/js/main.2a9a6a9d.js.map",
+    "main.f4b5b691.js.map": "/portfolio/static/js/main.f4b5b691.js.map",
     "791.dc012046.chunk.css.map": "/portfolio/static/css/791.dc012046.chunk.css.map",
     "791.07f79bb2.chunk.js.map": "/portfolio/static/js/791.07f79bb2.chunk.js.map",
     "430.43c8b8d6.chunk.css.map": "/portfolio/static/css/430.43c8b8d6.chunk.css.map",
@@ -39,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.a3a919aa.css",
-    "static/js/main.2a9a6a9d.js"
+    "static/js/main.f4b5b691.js"
   ]
 }
