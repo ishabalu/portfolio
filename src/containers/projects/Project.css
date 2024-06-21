@@ -4,7 +4,7 @@
   line-height: normal;
 }
 
-.startup-project-text img{
+.startup-project-text img {
   max-width: 100%;
   height: auto;
 }
@@ -21,12 +21,71 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .project-title {
     font-size: 30px;
     text-align: center;
   }
-  .repo-cards-div-main{
+
+  .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+
+  .tech-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tech-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .tech-icons img {
+    margin-left: 16px;
+  }
+  
+  .hr-blurry {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+  
+
 }

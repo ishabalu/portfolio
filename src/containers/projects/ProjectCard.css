@@ -1,0 +1,57 @@
+.project-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tech-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.tech-icons img {
+    margin-left: 16px;
+}
+
+.github-button {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #e0e0e0;
+}
+
+.github-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+
+
+.github {
+    color: #333;
+}
+
+.hr-blurry {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
