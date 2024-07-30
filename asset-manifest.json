@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a3a919aa.css",
-    "main.js": "/portfolio/static/js/main.f4b5b691.js",
-    "static/css/791.dc012046.chunk.css": "/portfolio/static/css/791.dc012046.chunk.css",
-    "static/js/791.07f79bb2.chunk.js": "/portfolio/static/js/791.07f79bb2.chunk.js",
+    "main.css": "/portfolio/static/css/main.85a58523.css",
+    "main.js": "/portfolio/static/js/main.9dd085d6.js",
     "static/css/430.43c8b8d6.chunk.css": "/portfolio/static/css/430.43c8b8d6.chunk.css",
     "static/js/430.87fb5d54.chunk.js": "/portfolio/static/js/430.87fb5d54.chunk.js",
-    "static/media/meta_pic.png": "/portfolio/static/media/meta_pic.1f45bbdde4517627e88a.png",
+    "static/media/movies.png": "/portfolio/static/media/movies.050972a35885d186bf58.png",
+    "static/media/NLP.png": "/portfolio/static/media/NLP.f256856ab5d5c515d45a.png",
+    "static/media/distance.png": "/portfolio/static/media/distance.542f611f00ed654ee058.png",
+    "static/media/strength.png": "/portfolio/static/media/strength.7205412a9266955cd642.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/sample_gates.jpg": "/portfolio/static/media/sample_gates.ba0d2a6042c4ab51b823.jpg",
+    "static/media/malicious.png": "/portfolio/static/media/malicious.bd277d64a3f7f57305ea.png",
     "static/media/woman-at-work.png": "/portfolio/static/media/woman-at-work.e6976da8c7f252b8c384.png",
     "static/media/The Bride in Hacienda.ttf": "/portfolio/static/media/The Bride in Hacienda.eefb1084dc7eca3e836f.ttf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -31,15 +34,13 @@
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.ec71d7cb82f4dfb6faa2.svg",
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.64ee645097ba732c156b.svg",
     "index.html": "/portfolio/index.html",
-    "main.a3a919aa.css.map": "/portfolio/static/css/main.a3a919aa.css.map",
-    "main.f4b5b691.js.map": "/portfolio/static/js/main.f4b5b691.js.map",
-    "791.dc012046.chunk.css.map": "/portfolio/static/css/791.dc012046.chunk.css.map",
-    "791.07f79bb2.chunk.js.map": "/portfolio/static/js/791.07f79bb2.chunk.js.map",
+    "main.85a58523.css.map": "/portfolio/static/css/main.85a58523.css.map",
+    "main.9dd085d6.js.map": "/portfolio/static/js/main.9dd085d6.js.map",
     "430.43c8b8d6.chunk.css.map": "/portfolio/static/css/430.43c8b8d6.chunk.css.map",
     "430.87fb5d54.chunk.js.map": "/portfolio/static/js/430.87fb5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a919aa.css",
-    "static/js/main.f4b5b691.js"
+    "static/css/main.85a58523.css",
+    "static/js/main.9dd085d6.js"
   ]
 }
